@@ -18,6 +18,8 @@ const x = 40;
 const y = 30;
 
 
+/* Uncomment to see values in the console
+
 // addition
 console.log(x + y);
 
@@ -32,3 +34,5 @@ console.log(x ** 2); // is equal to x^2 =x*x
 
 // Modulus => %
 console.log(y % x); //what is the reminder of dividing 20 to 10
+
+*/
