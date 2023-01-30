@@ -6,6 +6,7 @@ OPERATORS
 1)Assignment Operator
 2)arithmetic operators
 3)comparison operators
+4)logical operators
 
 */
 
@@ -42,13 +43,26 @@ console.log(y % x); //what is the reminder of dividing 20 to 10
 console.log(x <= y); // this value gives true of false results
 */
 
-//
+/* Uncomment to see values in the console
 
 // != operator => inverts the logic
 console.log(x != y);
 
 if (x > y) {
-    console.log(x - y)
+    console.log(x - y);
 } else {
-    console.log(y - x)
+    console.log(y - x);
 }
+
+*/
+
+//Logical Operators
+const isOrphan = true;
+const isGraduate = true;
+const isUgandan = false;
+
+// we want someone who is an orpahn and a graduate
+console.log(firstName && isOrphan && isUgandan)
+console.log(isOrphan || isUgandan)
+console.log(!isOrphan)
+console.log(!isUgandan)
