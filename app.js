@@ -5,7 +5,7 @@ OPERATORS
 
 1)Assignment Operator
 2)arithmetic operators
-
+3)comparison operators
 
 */
 
@@ -36,3 +36,19 @@ console.log(x ** 2); // is equal to x^2 =x*x
 console.log(y % x); //what is the reminder of dividing 20 to 10
 
 */
+
+/*
+ comparison operaters
+console.log(x <= y); // this value gives true of false results
+*/
+
+//
+
+// != operator => inverts the logic
+console.log(x != y);
+
+if (x > y) {
+    console.log(x - y)
+} else {
+    console.log(y - x)
+}
