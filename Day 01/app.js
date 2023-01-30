@@ -66,3 +66,43 @@ console.log(firstName && isOrphan && isUgandan)
 console.log(isOrphan || isUgandan)
 console.log(!isOrphan)
 console.log(!isUgandan)
+
+
+/*
+What does the || operator do?
+The || operator is the logical OR operator and finds the first truthy expression in its operands and returns it.
+
+For example, if we have:
+*/
+
+console.log("" || "foo" || false);
+
+/*
+Then we get 'foo' logged because it’s the first truthy operand in the expression.
+
+It’s also useful for providing a default value if the ones before it are falsy.
+*/
+
+/*
+What does the + operator do?
+The + operator converts whatever is after it to a number if it’s placed before an expression. So if we have:
+
+console.log(+"1");
+Then we get 1 logged.
+
+If we have:
+
+console.log(+("1" + 2));
+Then we get 12 logged.
+
+As we can it also serves as the concatenation operator for strings within the parentheses.
+
+It’s also the addition operator if all operands are numbers.
+
+For example, if we have:
+
+console.log(1 + 2 + 3);
+Then we get 6.
+*/
+
+console.log(1 + "20")
