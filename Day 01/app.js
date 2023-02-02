@@ -68,6 +68,12 @@ console.log(!isOrphan)
 console.log(!isUgandan)
 
 
+if (isOrphan && isGraduate) {
+    console.log('You qualify for the Offer')
+} else {
+    console.log('You dont qualify for the offer')
+}
+
 /*
 What does the || operator do?
 The || operator is the logical OR operator and finds the first truthy expression in its operands and returns it.
@@ -105,4 +111,4 @@ console.log(1 + 2 + 3);
 Then we get 6.
 */
 
-console.log(1 + "20")
+// console.log(1 + "20")
