@@ -11,10 +11,10 @@ OPERATORS
 */
 
 const age = 30;
-const firstName = prompt("what is your first name?");
-const secondName = prompt("what is your Last name?");
-const isMarried = false;
-const job = 'frontend developer';
+const firstName = prompt("What is your first name?");
+const secondName = prompt("What is your Last name?");
+const isMarried = prompt("Are You MArried?");
+const job = prompt("What is your Job Title");
 const x = 40;
 const y = 30;
 
@@ -62,10 +62,10 @@ const isGraduate = true;
 const isUgandan = false;
 
 // we want someone who is an orpahn and a graduate
-console.log(firstName && isOrphan && isUgandan);
-console.log(isOrphan || isUgandan);
+/* console.log(firstName && isOrphan && isUgandan);
+console.log(isOrphan || isUgandan);                                 //Uncomment To View This In The Console
 console.log(!isOrphan);
-console.log(!isUgandan);
+console.log(!isUgandan);*/
 
 /* QUESTION ONE:
 If some one is an orphan and a graduate: the code below displays the following information in the consoloe
@@ -110,7 +110,8 @@ const fullName = firstName + " " + secondName
     // console.log(fullName) // nOW Let's try to add in age for the variable above :const age = '30';
 
 // console.log("Your full names are" + " " + fullName + " " + "and your age is" + " " + age + "\(yrs)");
-console.log(`Your full name is ${fullName} and your age is ${age}(yrs) old`);
+console.log(`Your full name is ${firstName} ${secondName} and your age is ${age}(yrs) old! Your also a ${job}`);
+
 // this is what the message in the console should look like: Your full names are Kisakye Moses and your age is 30 (yrs).
 
 /*
