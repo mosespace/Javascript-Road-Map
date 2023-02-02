@@ -13,7 +13,7 @@ OPERATORS
 const age = promt("How Old are You?");
 const firstName = prompt("What is your first name?");
 const secondName = prompt("What is your Last name?");
-const isMarried = prompt("Are You MArried?");
+const isMarried = prompt("Are you married?");
 const job = prompt("What is your Job Title");
 const x = 40;
 const y = 30;
