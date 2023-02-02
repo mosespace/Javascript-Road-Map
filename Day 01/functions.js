@@ -15,14 +15,16 @@ sayHelloWorld(userMessage);*/
 // Create a program that takes in two arguments / two numbers and then it returns there sum.
 
 function addNumbers(numberOne, numberTwo) {
-    const sum = numberOne + numberTwo;
+    const sum = Number(numberOne) + Number(numberTwo);
     console.log(`The sum of both ${numberOne} and ${numberTwo} is ${sum}`);
 }
 
 // call or invoke of the numbers
-addNumbers = prompt('Enter Value 1') + prompt('Enter Value 2');
+const value1 = prompt('Enter Value 1');
+const value2 = prompt('Enter Value 2');
+addNumbers(value1, value2);
 
-//  Write a program that calculates area of a triangle.
+/*//  Write a program that calculates area of a triangle.
 // Area is = 1/2 * B * H
 function areaOfTriangle(base, height) {
     const area = 0.5 * base * height;
@@ -30,4 +32,4 @@ function areaOfTriangle(base, height) {
 }
 
 // call or invoke of the numbers
-areaOfTriangle(4, 2)
+areaOfTriangle(4, 2)*/
