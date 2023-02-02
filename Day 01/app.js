@@ -72,11 +72,12 @@ If some one is an orphan and a graduate: the code below displays the following i
 You qualify for the Offer but when the information is fake, it provides the this information in the console.
 "You dont qualify for the offerYou dont qualify for the offer".
 */
+/*
 if (isOrphan && isGraduate) {
     console.log('You qualify for the Offer');
-} else {
+} else {                                                           //Uncomment To View This In The Console                
     console.log('You don\'t qualify for the offer');
-}
+}*/
 
 
 /* QUESTION TWO:
@@ -84,11 +85,12 @@ If some one is an Ugandan and an orphan: the code below displays the following i
 "You have unlocked stage one to your sucess" but when the ihe is either one of the above is true of false,, it provides the this information in the console.
 "You still have a long way to go".
 */
-if (isUgandan && isOrphan) {
+
+/*if (isUgandan && isOrphan) {
     console.log('You have unlocked stage one to your sucess');
-} else {
+} else {                                                           //Uncomment To View This In The Console
     console.log('You still have a long way to go');
-}
+}*/
 
 
 /* QUESTION THREE:
@@ -96,11 +98,12 @@ If X is greater than y and can be divided by two: the code below displays the fo
 "X is greater than 30 and it\'s divisible by two" but when it's not divisible by two, it provides the this information in the console.
 "X is not greater than 30 and it\'s not divisible by two".
 */
-if (x > y && x % 2 == 0) {
+
+/*if (x > y && x % 2 == 0) {
     console.log('X is greater than 30 and it\'s divisible by two');
-} else {
+} else {                                                            //Uncomment To View This In The Console
     console.log('X is not greater than 30 and it\'s not divisible by two');
-}
+}*/
 
 
 // STRING CONCATINATION => basically means joining two or more strings!
