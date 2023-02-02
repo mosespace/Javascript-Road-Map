@@ -1,20 +1,19 @@
-// alert('Thank you for forking my repository and learning with me. Please kindly give me a follow on my GitHub and i will be glad if we share and learn more code together')
+alert('Thank you for forking my repository and learning with me. Please kindly give me a follow on my GitHub and i will be glad if we share and learn more code together')
 
+/* --------------------- Question One------------------------------------------*/
 // Functions
 // 1. Function Declaration
-
-/*function sayHelloWorld(message) {
+function sayHelloWorld(message) {
     console.log(`Hello ${message}, We captured your full names!`)
 }
-
-
 // Call or Invoke The Message
 const userMessage = prompt("Write Your Full Names Here;");
-sayHelloWorld(userMessage);*/
+// Capture Information
+sayHelloWorld(userMessage);
 
 
 
-/* --------------------- Question Four------------------------------------------*/
+/* --------------------- Question Two------------------------------------------*/
 // Create a program that takes in two arguments / two numbers and then it returns there sum.
 function addNumbers(numberOne, numberTwo) {
     const sum = Number(numberOne) + Number(numberTwo);
@@ -29,7 +28,7 @@ addNumbers(value1, value2);
 
 
 
-/* --------------------- Question Four------------------------------------------*/
+/* --------------------- Question Three------------------------------------------*/
 /* //Question
 Qtn. 1 |Create a program that takes in four arguments and adds them first and later then divide the total by two*/
 
@@ -63,3 +62,4 @@ const b = prompt("Enter Value For The Base");
 const h = prompt("Enter Value For The Height");
 // Capture Information
 areaOfTriangle(b, h);
+/* ------------------------------End------------------------------------------*/
