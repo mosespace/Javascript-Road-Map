@@ -11,8 +11,8 @@ OPERATORS
 */
 
 const age = 30;
-const firstName = 'Moses';
-const secondName = 'Kisakye';
+const firstName = prompt("what is your first name?");
+const secondName = prompt("what is your Last name?");
 const isMarried = false;
 const job = 'frontend developer';
 const x = 40;
@@ -107,9 +107,9 @@ if (x > y && x % 2 == 0) {
 // Let's use the firstName and secondName the variables above.
 
 const fullName = firstName + " " + secondName
-console.log(fullName) // nOW Let's try to add in age for the variable above :const age = '30';
+    // console.log(fullName) // nOW Let's try to add in age for the variable above :const age = '30';
 
-console.log("Your full names are" + " " + fullName + " " + "and your age is" + " " + age + "\(yrs)");
+// console.log("Your full names are" + " " + fullName + " " + "and your age is" + " " + age + "\(yrs)");
 console.log(`Your full name is ${fullName} and your age is ${age}(yrs) old`);
 // this is what the message in the console should look like: Your full names are Kisakye Moses and your age is 30 (yrs).
 
@@ -151,3 +151,8 @@ Then we get 6.
 */
 
 // console.log(1 + "20")
+
+// Promt Function => a function is a piece of code that helps us to do a particular task.
+
+const questionOne = prompt("Did you give me a follow on my Github?");
+console.log(questionOne);
