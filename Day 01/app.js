@@ -62,10 +62,10 @@ const isGraduate = true;
 const isUgandan = false;
 
 // we want someone who is an orpahn and a graduate
-console.log(firstName && isOrphan && isUgandan)
-console.log(isOrphan || isUgandan)
-console.log(!isOrphan)
-console.log(!isUgandan)
+console.log(firstName && isOrphan && isUgandan);
+console.log(isOrphan || isUgandan);
+console.log(!isOrphan);
+console.log(!isUgandan);
 
 /* QUESTION ONE:
 If some one is an orphan and a graduate: the code below displays the following information in the consoloe
@@ -73,11 +73,10 @@ You qualify for the Offer but when the information is fake, it provides the this
 "You dont qualify for the offerYou dont qualify for the offer".
 */
 if (isOrphan && isGraduate) {
-    console.log('You qualify for the Offer')
+    console.log('You qualify for the Offer');
 } else {
-    console.log('You dont qualify for the offer')
+    console.log('You don\'t qualify for the offer');
 }
-
 
 
 /* QUESTION TWO:
@@ -86,11 +85,22 @@ If some one is an Ugandan and an orphan: the code below displays the following i
 "You still have a long way to go".
 */
 if (isUgandan && isOrphan) {
-    console.log('You have unlocked stage one to your sucess')
+    console.log('You have unlocked stage one to your sucess');
 } else {
-    console.log('You still have a long way to go')
+    console.log('You still have a long way to go');
 }
 
+
+/* QUESTION THREE:
+If X is greater than y and can be divided by two: the code below displays the following information in the consoloe
+"X is greater than 30 and it\'s divisible by two" but when it's not divisible by two, it provides the this information in the console.
+"X is not greater than 30 and it\'s not divisible by two".
+*/
+if (x > y && x % 2 == 0) {
+    console.log('X is greater than 30 and it\'s divisible by two');
+} else {
+    console.log('X is not greater than 30 and it\'s not divisible by two');
+}
 
 /*
 What does the || operator do?
@@ -99,7 +109,7 @@ The || operator is the logical OR operator and finds the first truthy expression
 For example, if we have:
 */
 
-console.log("" || "foo" || false);
+// console.log("" || "foo" || false);
 
 /*
 Then we get 'foo' logged because it’s the first truthy operand in the expression.
