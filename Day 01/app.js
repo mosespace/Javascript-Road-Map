@@ -78,6 +78,20 @@ if (isOrphan && isGraduate) {
     console.log('You dont qualify for the offer')
 }
 
+
+
+/* QUESTION TWO:
+If some one is an Ugandan and an orphan: the code below displays the following information in the consoloe
+"You have unlocked stage one to your sucess" but when the ihe is either one of the above is true of false,, it provides the this information in the console.
+"You still have a long way to go".
+*/
+if (isUgandan && isOrphan) {
+    console.log('You have unlocked stage one to your sucess')
+} else {
+    console.log('You still have a long way to go')
+}
+
+
 /*
 What does the || operator do?
 The || operator is the logical OR operator and finds the first truthy expression in its operands and returns it.
