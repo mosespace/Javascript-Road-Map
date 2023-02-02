@@ -10,11 +10,13 @@ OPERATORS
 
 */
 
-const age = promt("How Old are You?");
+
 const firstName = prompt("What is your first name?");
 const secondName = prompt("What is your Last name?");
+const age = prompt("How Old are You?");
 const isMarried = prompt("Are you married?");
 const job = prompt("What is your Job Title");
+const bornYear = 2023 - age
 const x = 40;
 const y = 30;
 
@@ -109,11 +111,11 @@ If X is greater than y and can be divided by two: the code below displays the fo
 // STRING CONCATINATION => basically means joining two or more strings!
 // Let's use the firstName and secondName the variables above.
 
-const fullName = firstName + " " + secondName
-    // console.log(fullName) // nOW Let's try to add in age for the variable above :const age = '30';
+// const fullName = firstName + " " + secondName
+// console.log(fullName) // nOW Let's try to add in age for the variable above :const age = '30';
 
 // console.log("Your full names are" + " " + fullName + " " + "and your age is" + " " + age + "\(yrs)");
-console.log(`Your full name is ${firstName} ${secondName} and your age is ${age}(yrs) old! Your also a ${job}`);
+console.log(`Your full name is ${firstName} ${secondName} and your age is ${age}(yrs) old! You were born in ${bornYear} and also currently a ${job}`);
 
 // this is what the message in the console should look like: Your full names are Kisakye Moses and your age is 30 (yrs).
 
