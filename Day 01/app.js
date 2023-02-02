@@ -10,11 +10,13 @@ OPERATORS
 
 */
 
-const age = 30;
-const firstName = 'Moses';
-const secondName = 'Kisakye';
-const isMarried = false;
-const job = 'frontend developer';
+
+const firstName = prompt("What is your first name?");
+const secondName = prompt("What is your Last name?");
+const age = prompt("How Old are You?");
+const isMarried = prompt("Are you married?");
+const job = prompt("What is your Job Title");
+const bornYear = 2023 - age
 const x = 40;
 const y = 30;
 
@@ -62,21 +64,22 @@ const isGraduate = true;
 const isUgandan = false;
 
 // we want someone who is an orpahn and a graduate
-console.log(firstName && isOrphan && isUgandan);
-console.log(isOrphan || isUgandan);
+/* console.log(firstName && isOrphan && isUgandan);
+console.log(isOrphan || isUgandan);                                 //Uncomment To View This In The Console
 console.log(!isOrphan);
-console.log(!isUgandan);
+console.log(!isUgandan);*/
 
 /* QUESTION ONE:
 If some one is an orphan and a graduate: the code below displays the following information in the consoloe
 You qualify for the Offer but when the information is fake, it provides the this information in the console.
 "You dont qualify for the offerYou dont qualify for the offer".
 */
+/*
 if (isOrphan && isGraduate) {
     console.log('You qualify for the Offer');
-} else {
+} else {                                                           //Uncomment To View This In The Console                
     console.log('You don\'t qualify for the offer');
-}
+}*/
 
 
 /* QUESTION TWO:
@@ -84,11 +87,12 @@ If some one is an Ugandan and an orphan: the code below displays the following i
 "You have unlocked stage one to your sucess" but when the ihe is either one of the above is true of false,, it provides the this information in the console.
 "You still have a long way to go".
 */
-if (isUgandan && isOrphan) {
+
+/*if (isUgandan && isOrphan) {
     console.log('You have unlocked stage one to your sucess');
-} else {
+} else {                                                           //Uncomment To View This In The Console
     console.log('You still have a long way to go');
-}
+}*/
 
 
 /* QUESTION THREE:
@@ -96,11 +100,24 @@ If X is greater than y and can be divided by two: the code below displays the fo
 "X is greater than 30 and it\'s divisible by two" but when it's not divisible by two, it provides the this information in the console.
 "X is not greater than 30 and it\'s not divisible by two".
 */
-if (x > y && x % 2 == 0) {
+
+/*if (x > y && x % 2 == 0) {
     console.log('X is greater than 30 and it\'s divisible by two');
-} else {
+} else {                                                            //Uncomment To View This In The Console
     console.log('X is not greater than 30 and it\'s not divisible by two');
-}
+}*/
+
+
+// STRING CONCATINATION => basically means joining two or more strings!
+// Let's use the firstName and secondName the variables above.
+
+// const fullName = firstName + " " + secondName
+// console.log(fullName) // nOW Let's try to add in age for the variable above :const age = '30';
+
+// console.log("Your full names are" + " " + fullName + " " + "and your age is" + " " + age + "\(yrs)");
+console.log(`Your full name is ${firstName} ${secondName} and your age is ${age}(yrs) old! You were born in ${bornYear} and also currently a ${job}`);
+
+// this is what the message in the console should look like: Your full names are Kisakye Moses and your age is 30 (yrs).
 
 /*
 What does the || operator do?
@@ -140,3 +157,8 @@ Then we get 6.
 */
 
 // console.log(1 + "20")
+
+// Promt Function => a function is a piece of code that helps us to do a particular task.
+
+const questionOne = prompt("Did you give me a follow on my Github?");
+console.log(questionOne);
