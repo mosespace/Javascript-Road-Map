@@ -102,6 +102,17 @@ if (x > y && x % 2 == 0) {
     console.log('X is not greater than 30 and it\'s not divisible by two');
 }
 
+
+// STRING CONCATINATION => basically means joining two or more strings!
+// Let's use the firstName and secondName the variables above.
+
+const fullName = firstName + " " + secondName
+console.log(fullName) // nOW Let's try to add in age for the variable above :const age = '30';
+
+console.log("Your full names are" + " " + fullName + " " + "and your age is" + " " + age + "\(yrs)");
+console.log(`Your full name is ${fullName} and your age is ${age}(yrs) old`);
+// this is what the message in the console should look like: Your full names are Kisakye Moses and your age is 30 (yrs).
+
 /*
 What does the || operator do?
 The || operator is the logical OR operator and finds the first truthy expression in its operands and returns it.
