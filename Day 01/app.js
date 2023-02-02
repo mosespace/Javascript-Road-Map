@@ -67,7 +67,11 @@ console.log(isOrphan || isUgandan)
 console.log(!isOrphan)
 console.log(!isUgandan)
 
-
+/* QUESTION ONE:
+If some one is an orphan and a graduate: the code below displays the following information in the consoloe
+You qualify for the Offer but when the information is fake, it provides the this information in the console.
+"You dont qualify for the offerYou dont qualify for the offer".
+*/
 if (isOrphan && isGraduate) {
     console.log('You qualify for the Offer')
 } else {
