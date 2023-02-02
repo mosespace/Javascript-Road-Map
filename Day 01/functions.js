@@ -20,7 +20,7 @@ function addNumbers(numberOne, numberTwo) {
 }
 
 // call or invoke of the numbers
-addNumbers(70, 10)
+addNumbers = prompt('Enter Value 1') + prompt('Enter Value 2');
 
 //  Write a program that calculates area of a triangle.
 // Area is = 1/2 * B * H
