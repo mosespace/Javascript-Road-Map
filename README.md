@@ -17,3 +17,15 @@ I will also cover the different data types in JavaScript, such as numbers, strin
 > After covering all the days of this road map, you and me will have a strong understanding of the basics of JavaScript and be ready to move on to more advanced topics.
 
 Thank you for joining me for the first episode of this JavaScript series, stay tuned for the code [Day 02] where we will be diving deeper into the language. Don't forget to follow me to never miss an episode.
+
+> 
+```js
+To run the differet javascripts in the console, change line 10 in the officail index.html
+    8.
+    9.
+    10.  <link rel="stylesheet" href="style.css">
+    11.
+    12.
+```
+
+> You what to change lines? [Click-Here](/index.html)
