@@ -52,9 +52,24 @@ console.log(calcYear(prompt('Enter Year Of Birth'), prompt('Enter First Name')))
 /*
 Question two: Create a function that taakes two numbers as arguements and return their sum.
 */
-
+/*
 const arguements = (numb1, numb2) => {
     const calCulate = Number(numb1) + Number(numb2)
     return calCulate;
 }
-console.log(arguements(prompt('Enter Number One'), prompt('Enter Number Two')))
+console.log(arguements(prompt('Enter Number One'), prompt('Enter Number Two')))*/
+
+/*
+Question three:
+Write a function that takes in a number as an argument and returns "even" if the number is even, and "odd" if the number is odd.
+*/
+
+const oodEven = (num) => {
+    if (num % 2 == 0) {
+        console.log('The number is even')
+    } else {
+        console.log('The number is odd')
+    }
+}
+
+oodEven(prompt('Enter Number One'), prompt('Enter Number Two'))
