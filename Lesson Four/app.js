@@ -36,4 +36,15 @@ console.log(addNumbers(30, 10));
 const calcAge = (bornYear) => 2023 - bornYear;
 
 // Invoking the function!
-console.log(`Your Years are; ${calcAge(prompt("Enter Your Born Year"))}!!!`);
+// console.log(`Your Years are; ${calcAge(prompt("Enter Your Born Year"))}!!!`);
+
+/*---------------------------Example Two------------------------*/
+/*
+Question: Given the inputs below: date of birth and first name, make a program that outputsthe given year comptuted into the actual year and making an output below: johndoe is 12 years old!
+*/
+const calcYear = (yearBorn, firstName) => {
+    const age = 2030 - yearBorn;
+    const message = `${firstName} you are ${age} years old`;
+    return age;
+}
+console.log(calcYear(prompt('Enter Year Of Birth'), prompt('Enter First Name')));
