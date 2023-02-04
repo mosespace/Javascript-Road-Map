@@ -26,11 +26,14 @@ const addNumbers = function(num1, num2) {
 console.log(addNumbers(30, 10));
 
 /*---------------------------Example Two------------------------*/
-// Arrow Functions.
+// Arrow Functions.   //Method One------------------------
 // Define the function
-const calcAge = function(bornYear) {
+/*const calcAge = function(bornYear) {
     return 2023 - bornYear; // The use of console.log is the same as return!);
-}
+}*/
+
+//Method Two------------------------
+const calcAge = (bornYear) => 2023 - bornYear;
 
 // Invoking the function!
 console.log(`Your Years are; ${calcAge(prompt("Enter Your Born Year"))}!!!`);
