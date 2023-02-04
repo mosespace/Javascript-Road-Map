@@ -42,9 +42,19 @@ const calcAge = (bornYear) => 2023 - bornYear;
 /*
 Question: Given the inputs below: date of birth and first name, make a program that outputsthe given year comptuted into the actual year and making an output below: johndoe is 12 years old!
 */
-const calcYear = (yearBorn, firstName) => {
+/*const calcYear = (yearBorn, firstName) => {
     const age = 2030 - yearBorn;
     const message = `${firstName} you are ${age} years old`;
     return age;
 }
-console.log(calcYear(prompt('Enter Year Of Birth'), prompt('Enter First Name')));
+console.log(calcYear(prompt('Enter Year Of Birth'), prompt('Enter First Name')));*/
+
+/*
+Question two: Create a function that taakes two numbers as arguements and return their sum.
+*/
+
+const arguements = (numb1, numb2) => {
+    const calCulate = Number(numb1) + Number(numb2)
+    return calCulate;
+}
+console.log(arguements(prompt('Enter Number One'), prompt('Enter Number Two')))
