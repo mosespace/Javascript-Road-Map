@@ -101,3 +101,12 @@ Write a function that takes in an integer in minutes and coverts it to seconds.
 const takesMinutes = (m) => m * 60;
 const answer = takesMinutes(4);
 console.log(answer);
+
+/*
+Question Five
+Create a function that takes in the age in years and returns the age in days.
+*/
+
+const ageInYears = (age) => age * 365.24;
+const ageInDays = ageInYears(prompt("Enter Age In Years"));
+console.log(`Your age in days is ${ageInDays}`);
