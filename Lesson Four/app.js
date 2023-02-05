@@ -91,3 +91,13 @@ function countVowels(str) {
 
     return count;
 }
+console.log(countVowels(prompt('Enter any Word')));
+
+/*
+Question Four
+Write a function that takes in an integer in minutes and coverts it to seconds.
+*/
+
+const takesMinutes = (m) => m * 60;
+const answer = takesMinutes(4);
+console.log(answer)
