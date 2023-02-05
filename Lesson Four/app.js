@@ -110,3 +110,15 @@ Create a function that takes in the age in years and returns the age in days.
 const ageInYears = (age) => age * 365.24;
 const ageInDays = ageInYears(prompt("Enter Age In Years"));
 console.log(`Your age in days is ${ageInDays}`);
+
+/*
+Question Six
+Create a function that will convert from Celsius to Fahrenheit.
+*/
+
+function celsiusToFahrenheit(c) {
+    const fahrenheit = c * (9 / 5) + 32;
+    return fahrenheit;
+}
+
+console.log(celsiusToFahrenheit(prompt("Enter Number to change to Fahrenheit")))
