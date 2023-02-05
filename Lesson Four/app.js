@@ -3,7 +3,7 @@ console.log("It\'s Working");
 
 // Previous Reminders
 
-/*---------------------------Example Two------------------------*/
+/*---------------------------Example One------------------------*/
 // 1. Function Declartaions
 // Defining the function
 function sumOfTwoNumbers(number1, number2) {
@@ -25,7 +25,7 @@ const addNumbers = function(num1, num2) {
 // Invoking the function!
 console.log(addNumbers(30, 10));
 
-/*---------------------------Example Two------------------------*/
+/*---------------------------Example Three------------------------*/
 // Arrow Functions.   //Method One------------------------
 // Define the function
 /*const calcAge = function(bornYear) {
@@ -38,7 +38,7 @@ const calcAge = (bornYear) => 2023 - bornYear;
 // Invoking the function!
 // console.log(`Your Years are; ${calcAge(prompt("Enter Your Born Year"))}!!!`);
 
-/*---------------------------Example Two------------------------*/
+/*---------------------------Example Four------------------------*/
 /*
 Question: Given the inputs below: date of birth and first name, make a program that outputsthe given year comptuted into the actual year and making an output below: johndoe is 12 years old!
 */
@@ -121,4 +121,16 @@ function celsiusToFahrenheit(c) {
     return fahrenheit;
 }
 
-console.log(celsiusToFahrenheit(prompt("Enter Number to change to Fahrenheit")))
+console.log(celsiusToFahrenheit(prompt("Enter Number to change to Fahrenheit")));
+
+/*
+Question Seven
+Write a function that takes in the bas and height of a triangle and returns it's area.
+*/
+
+const areaOfTriange = function(b, h) {
+    const area = 0.5 * b * h;
+    return area;
+}
+
+console.log(areaOfTriange(20, 16));
