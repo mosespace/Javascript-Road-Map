@@ -63,13 +63,31 @@ console.log(arguements(prompt('Enter Number One'), prompt('Enter Number Two')))*
 Question three:
 Write a function that takes in a number as an argument and returns "even" if the number is even, and "odd" if the number is odd.
 */
-
+/*
 const oodEven = (num) => {
     if (num % 2 == 0) {
-        console.log('The number is even')
+        console.log('The number is even');
     } else {
-        console.log('The number is odd')
+        console.log('The number is odd');
     }
 }
 
-oodEven(prompt('Enter Number One'), prompt('Enter Number Two'))
+oodEven(prompt('Enter Number One'))*/
+
+/*
+Qyestion three:
+Write a function that takes in a string as an argument and returns the number of vowels in the string.
+*/
+
+function countVowels(str) {
+    let vowels = "aeiouAEIOU";
+    let count = 0;
+
+    for (let char of str) {
+        if (vowels.includes(char)) {
+            count++;
+        }
+    }
+
+    return count;
+}
