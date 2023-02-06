@@ -94,3 +94,11 @@ let fruits = "apple,jacfruits,beens,peels";
 let name = fruits.split(",");
 
 console.log(name)
+
+/*----------------Example Eleven-----------------*/
+// 11) Join. "This method convets arrays into strings and is typically powerfull;
+// Join method
+
+const myNames = ["Moses", "Kisakye", "Crushes", "On", "Promise"];
+const myFullNames = myNames.join(" ");
+console.log(myFullNames);
