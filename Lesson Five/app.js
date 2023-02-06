@@ -54,10 +54,18 @@ const replaceWith = message.replace("I", "You");
 console.log(replaceWith);
 
 /*----------------Example Six-----------------*/
-// 4) Replace. "This method replaces a string with a new placemet;
+// 4) Concat. "This method replaces a string with a new placemet;
 // Concat method
 const str1 = 'This is string "One"';
 const str2 = 'This is string "Two"';
 // const str3 = str1.concat(" ", str2)
-const str3 = `${str1} ${str2}`
+const str3 = `${str1} ${str2}`;
 console.log(str3);
+
+/*----------------Example Seven-----------------*/
+// 4) Trim. "This method removes spaces on both left and right of a string;
+// Trim method
+
+let text1 = "            Hello World          ";
+let text2 = text1.trim();
+console.log(text2);
