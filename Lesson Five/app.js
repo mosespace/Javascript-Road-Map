@@ -58,5 +58,6 @@ console.log(replaceWith);
 // Concat method
 const str1 = 'This is string "One"';
 const str2 = 'This is string "Two"';
-const str3 = str1.concat(" ", str2)
+// const str3 = str1.concat(" ", str2)
+const str3 = `${str1} ${str2}`
 console.log(str3);
