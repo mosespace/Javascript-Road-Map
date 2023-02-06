@@ -44,3 +44,19 @@ Gets a substring beginning at the specified location and having the specified le
 
 The signature '(from: number, length?: number | undefined): string' of 'fullName.substr' is deprecated.ts(6387)
 */
+
+/*----------------Example Five-----------------*/
+// 4) Replace. "This method replaces a string with a new placemet;
+const message = "I crush On You"
+    // I want the output to be: "You Crush On Me"
+const replaceWith = message.replace("I", "You");
+
+console.log(replaceWith);
+
+/*----------------Example Six-----------------*/
+// 4) Replace. "This method replaces a string with a new placemet;
+// Concat method
+const str1 = 'This is string "One"';
+const str2 = 'This is string "Two"';
+const str3 = str1.concat(" ", str2)
+console.log(str3);
