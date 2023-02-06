@@ -27,7 +27,7 @@ console.log(lang.slice(5)); // Extracts values from index five to the positive s
 console.log(lang.slice(5, 0)); // Extracts values in reverse order, it re arrages the smallest number to come after the biggest number has passed.
 
 /*----------------Example Four-----------------*/
-// 3) string substr() => It is similar to the slice The difference is that the second parameter specifies the lenght of the extracted part. ;
+// 4) string substr() => It is similar to the slice The difference is that the second parameter specifies the lenght of the extracted part. ;
 const fullName = "Kisakye Moses";
 console.log(fullName.substr(0, 7));
 console.log(fullName.substr(5)); // Extracts values from index five to the positive side.
@@ -46,7 +46,7 @@ The signature '(from: number, length?: number | undefined): string' of 'fullName
 */
 
 /*----------------Example Five-----------------*/
-// 4) Replace. "This method replaces a string with a new placemet;
+// 5) Replace. "This method replaces a string with a new placemet;
 const message = "I crush On You"
     // I want the output to be: "You Crush On Me"
 const replaceWith = message.replace("I", "You");
@@ -54,7 +54,7 @@ const replaceWith = message.replace("I", "You");
 console.log(replaceWith);
 
 /*----------------Example Six-----------------*/
-// 4) Concat. "This method replaces a string with a new placemet;
+// 6) Concat. "This method replaces a string with a new placemet;
 // Concat method
 const str1 = 'This is string "One"';
 const str2 = 'This is string "Two"';
@@ -63,9 +63,17 @@ const str3 = `${str1} ${str2}`;
 console.log(str3);
 
 /*----------------Example Seven-----------------*/
-// 4) Trim. "This method removes spaces on both left and right of a string;
+// 7) Trim. "This method removes spaces on both left and right of a string;
 // Trim method
 
 let text1 = "            Hello World          ";
 let text2 = text1.trim();
 console.log(text2);
+
+/*----------------Example Eight-----------------*/
+// 8) charArt. "This method eturns the character at the specified index;
+// charArt method
+
+let content = "Hello World";
+let conteOut = (content.charAt(1));
+console.log(conteOut);
