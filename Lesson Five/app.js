@@ -75,5 +75,22 @@ console.log(text2);
 // charArt method
 
 let content = "Hello World";
-let conteOut = (content.charAt(1));
+let conteOut = (content.charAt(0).toLocaleUpperCase());
 console.log(conteOut);
+
+/*----------------Example Nine-----------------*/
+// 9) Property Acess. "This method is approximately the same with the charArt and returns the character at the specified index;
+// Property Acess method
+
+let content2 = "Hello World";
+let conteOut1 = (content2[1].toLocaleUpperCase());
+console.log(conteOut1);
+
+/*----------------Example Ten-----------------*/
+// 10) Splint. "This method convets stings into arrays and is typically powerfull;
+// Splint method
+
+let fruits = "apple,jacfruits,beens,peels";
+let name = fruits.split(",");
+
+console.log(name)
