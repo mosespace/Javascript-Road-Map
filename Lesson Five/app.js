@@ -99,6 +99,6 @@ console.log(name)
 // 11) Join. "This method convets arrays into strings and is typically powerfull;
 // Join method
 
-const myNames = ["Moses", "Kisakye", "Crushes", "On", "Promise"];
+const myNames = ["Moses", "Kisakye", "Crushes", "On", "Man"];
 const myFullNames = myNames.join(" ");
 console.log(myFullNames);
