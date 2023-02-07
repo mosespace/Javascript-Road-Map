@@ -69,7 +69,7 @@ console.log(things[3]); // We console the index after the var name
 There aare two ways to add an elemnt to an array; 
 The first one is called the push() method and the second one is called the unshit() method;
 
-The Pull method adds an element to the back of the string
+The Pull method adds an element to the back of the array
 Example:
 */
 
@@ -82,4 +82,21 @@ arrayOne.push('coding', 'programming');
 
 //  Then after we console.log 
 
-console.log(arrayOne)
+console.log(arrayOne);
+
+/*
+The unshift method adds an element to the front of the array
+Example:
+*/
+
+const arrayTwo = new Array('Posho', 'Beans');
+
+// Now to add an elemet at the front let's assume we wanted to add elements named by 'matooke', 'meat'.
+// We declare that first before consoling and logging.
+
+arrayTwo.unshift('matooke', 'meat');
+
+//  Then after we console.log 
+// Note, the word's will be added in the same order they are listed in. So keep doing grt.
+
+console.log(arrayTwo);
