@@ -232,3 +232,27 @@ let spreadSyntax = [...salads, "🎂", "🎂", "🍥"]; // You can be able to ad
     that's how poerfull the spreadSyntax is
 Now if you console.log this, the output will be:
 */
+
+/*
+We can still use the spread Sysntax to join merge multiple arays;
+Let's ee how kwe can do that
+*/
+
+let emotions = new Array('😂', '😊');
+let flowers = new Array('🌹', '💐');
+
+// Now to join these arrays, i will still use the spread syntax but i will need to first create for the a new var;
+
+const merged = [...emotions, ...flowers]; // This variable merges the two arrays
+
+console.log(merged); //The output will be (4) ['😂', '😊', '🌹', '💐']
+
+/*
+As we also above,  we can still add some content and still will be added to the arraws. ie;
+const merged = [...emotions, ...flowers]; // if we add other element's they can still be added to the new variable
+
+const merged = [...emotions, ...flowers, 'Boy', 'Girl']; // Here i have added boy and girl. so if we console this, the output will be.
+
+(6) ['😂', '😊', '🌹', '💐', 'Boy', 'Girl']
+
+*/
