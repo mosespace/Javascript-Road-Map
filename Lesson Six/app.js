@@ -48,5 +48,17 @@ How do we know that it is an array: The data is represented in by the following 
 Example:
 */
 
-const myArrow = ['Moses', 'Daniel', 'Tosh', 'Kisakye Moses', 'Fave Artisit']
-console.log(myArrow)
+const myArrow = ['Moses', 'Daniel', 'Tosh', 'Kisakye Moses', 'Fave Artisit'];
+console.log(myArrow);
+
+// Getting to know an element in the array:
+/*
+We can get to know the elemnt in the array using the index in the console. using these two methods;
+Method One: ----- Loging the index
+Example
+*/
+const things = new Array('cow', 'goat', 'pig', 'fish', 'meat');
+
+// Now let's assume we wanto know the element at index 3
+
+console.log(things[3]); // We console the index after the var name
