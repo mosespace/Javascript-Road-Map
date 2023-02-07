@@ -156,3 +156,32 @@ removeArray.pop(); // Now here we call the pop() method second
 console.log(removeArray); // This console logs teh array with the removed elemt
 
 console.log(removedItem); // And lastly this console prints oyut the removed element in the console.
+
+/*--------------------Example Two------------ */
+/*
+In the shift() method, element's are romoved form the frontend of the array:
+Example(s):
+*/
+
+
+const removefront = ['Sex', 'Life', 'Money', 'Family', 'God', 'Repeat'];
+
+// Now after declaring the array, the nxt step is to remove an element in front. Let's assume we want to remove the element "sex". All we need is to pass the shift()method in this way
+
+removefront.shift();
+
+// In this methhod, we don't pass anyhting but we just console.log(removeArray);
+
+console.log(removefront)
+    // The output will be: (5) ['Life', 'Money', 'Family', 'God', 'Repeat']
+
+// but still we can the removed element by doing the following;
+
+const removedItemTwo = removefront.shift(); // The above line creates a var that will output the removed element form the array
+
+removefront.shift(); // Now here we call the sift() method second to remove the first index!
+
+console.log(removefront); // This console logs the array with the removed element.
+// The output will be: (3) ['Family', 'God', 'Repeat']
+
+console.log(removedItemTwo); // And lastly this console prints out the removed element in the console.
