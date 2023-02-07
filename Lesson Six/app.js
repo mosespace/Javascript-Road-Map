@@ -62,3 +62,24 @@ const things = new Array('cow', 'goat', 'pig', 'fish', 'meat');
 // Now let's assume we wanto know the element at index 3
 
 console.log(things[3]); // We console the index after the var name
+
+
+// Adding an Element To An Arry
+/*
+There aare two ways to add an elemnt to an array; 
+The first one is called the push() method and the second one is called the unshit() method;
+
+The Pull method adds an element to the back of the string
+Example:
+*/
+
+let arrayOne = ['Eat', 'Sleep'];
+
+// Now to add an elemet let assume we wanted to add an element named by 'coding', 'programming'.
+// We declare that first before consoling and logging.
+
+arrayOne.push('coding', 'programming');
+
+//  Then after we console.log 
+
+console.log(arrayOne)
