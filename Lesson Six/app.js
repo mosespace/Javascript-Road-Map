@@ -124,3 +124,35 @@ dailyActivities[0] = 'Replaced😂';
 
 // Here it logs or print's out all of the above
 console.log(dailyActivities);
+
+
+// Removing Elements IN An Arry
+/*
+There are two ways to add an elemnt to an array; 
+They are the pop() and shift() method;
+
+In the pop() method, elemt's are romoved form the backend of the array:
+Example(s):
+*/
+
+
+const removeArray = ['Moses', 'Daniel', 'Tosh', 'Kampala', 'Javascript', 'Chapter'];
+
+// Now after declaring the array, the nxt step is to remove an element. Let's assume we want to remove the element "Chapter". All we need is to pass the pop()method in this way
+
+removeArray.pop();
+
+// In this methhod, we don't pass anyhting but we just console.log(removeArray);
+
+console.log(removeArray)
+    // The output will be: (5) ['Moses', 'Daniel', 'Tosh', 'Kampala', 'Javascript']
+
+// but still we can the removed element by doing the following;
+
+const removedItem = removeArray.pop(); // The above line creates a var that will output the removed element form the array
+
+removeArray.pop(); // Now here we call the pop() method second
+
+console.log(removeArray); // This console logs teh array with the removed elemt
+
+console.log(removedItem); // And lastly this console prints oyut the removed element in the console.
