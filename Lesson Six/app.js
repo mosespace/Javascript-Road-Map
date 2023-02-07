@@ -185,3 +185,27 @@ console.log(removefront); // This console logs the array with the removed elemen
 // The output will be: (3) ['Family', 'God', 'Repeat']
 
 console.log(removedItemTwo); // And lastly this console prints out the removed element in the console.
+
+
+// Copying and cloning  Elements IN An Arry
+/*
+There are two ways to add an elemnt to an array; 
+They are the slice() and spreadSyntax(...) method;
+
+In the slice() method, ecopying or cloning an array is made by the following steps:
+Method 1
+Example(s):
+*/
+// This is an array we are going to use for the both of the methods 
+const salads = new Array('🌽', '🌾', '🥒', '🫘', '🌹');
+
+// Here we console.log the array
+console.log(salads);
+
+// Now the next step is to may a copy or clone of the above array using the slice() method;
+
+const copyOfSalads = (salads.slice()); // Here we make a copy of the array; Note these arrays are not the same as you see. Let's try to console.log them in boolen format and the output will be false.
+
+console.log(copyOfSalads == salads); // The output will be "false" because when we change anything either from the main array or it's copy, it won't be changed globally; 
+
+console.log(copyOfSalads); // The output of this will be it's copy!
