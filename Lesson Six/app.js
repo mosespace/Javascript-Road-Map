@@ -100,3 +100,27 @@ arrayTwo.unshift('matooke', 'meat');
 // Note, the word's will be added in the same order they are listed in. So keep doing grt.
 
 console.log(arrayTwo);
+
+// Changing Elements IN An Arry
+/*
+There is one way to add an elemnt to an array; 
+It is calld the use of index before the console or printing out the message as we are going to see;
+
+In this method, if an elemet is to be added to the array, the below should be noted
+Example(s):
+*/
+
+
+let dailyActivities = ['Eat', 'Drink'];
+
+// Now after declaring the array, we also invoke it by doing the following;
+
+// Note that if the provided index is blank in the main array, the added element will be put instead;
+dailyActivities[2] = 'Added👌';
+
+// Now here since the index is aready having an elemt in it, it will just be replaced with this new one in it's position
+
+dailyActivities[0] = 'Replaced😂';
+
+// Here it logs or print's out all of the above
+console.log(dailyActivities);
