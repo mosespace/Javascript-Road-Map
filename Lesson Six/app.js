@@ -222,3 +222,13 @@ Example(s):
 let spreadSyntax = [...salads]; // This now makes a copy of the main array of salads.
 
 console.log(spreadSyntax); //Output:(5) ['🌽', '🌾', '🥒', '🫘', '🌹']
+
+/* 
+In addition, this spreadSyntax is very powerfull in a way that it you can be able to add another  element by doing this:
+
+let spreadSyntax = [...salads, "🎂", "🎂", "🍥"]; // You can be able to add other elemts by just adding another text. 
+    ['🌽', '🌾', '🥒', '🫘', '🌹', '🎂', '🎂', '🍥']
+
+    that's how poerfull the spreadSyntax is
+Now if you console.log this, the output will be:
+*/
