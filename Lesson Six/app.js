@@ -209,3 +209,16 @@ const copyOfSalads = (salads.slice()); // Here we make a copy of the array; Note
 console.log(copyOfSalads == salads); // The output will be "false" because when we change anything either from the main array or it's copy, it won't be changed globally; 
 
 console.log(copyOfSalads); // The output of this will be it's copy!
+
+
+/*--------------------Example Two------------ */
+/*
+In the spreadSyntax(...) method, we can make a copy of an arrya buy passing a thes [..."array_name"]:
+Example(s):
+*/
+
+// Let's assume that we are going to copy the same salads array information above in exersie one.
+
+let spreadSyntax = [...salads]; // This now makes a copy of the main array of salads.
+
+console.log(spreadSyntax); //Output:(5) ['🌽', '🌾', '🥒', '🫘', '🌹']
