@@ -90,3 +90,15 @@ for (var i = 0; i <= 10; i++) {
     }
     console.log(i);
 };
+
+// Using the Continue statement;
+// This is were a loop stops and jumps to the conclusion;
+
+var q = 0;
+while (q < 10) {
+    q++;
+    if (q % 2 == 0) {
+        continue;
+    }
+    console.log(q); // Now here the continue method will ignore printing the even number and print the odd instead!!!
+};
