@@ -41,3 +41,26 @@ if (names.includes('Mbekeka')) {
 };
 
 // The array didn't have a name called Mbekekaand we added it to the front of the array using the unsift method
+
+
+//3. The splice() method
+/*
+In this array method, we use the splice method the same way we use the slice() method but here things totally change.
+
+In this method, what averr is chaged is affected or removed from the main array and thaen added into a new array as commanded.
+Let's see example below were we try to remove some languages in the variables called languages.
+*/
+
+let languages = ['Python', 'JavaScript', 'C', 'C++', 'CSS', 'Sas', 'PHP', 'React', 'NodeJs'];
+
+const newSpliced = languages.splice(1, 4); // If we console this without passing any agument's it will return a blank array instead but if we pass an element, then the removed are added into this variable to make another unique array. Now here we removed elements from (1,to 4) and if we console.log(languages); they will have been removed.
+
+console.log(newSpliced); // This is for the removed elements.
+
+console.log(languages); // Here as we can see the output in the console, the Javascript, C, C++ and CSS have been removed from the main array into a new one.
+
+// we can also add some elemets to the arrays using still the splice() method.
+
+const newSplicedTwo = languages.splice(8, 0, 'Vue', 'EsE');
+
+console.log(newSplicedTwo, languages);
