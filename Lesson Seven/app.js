@@ -25,3 +25,23 @@ for (let evenNumber = 1; evenNumber <= 20; evenNumber++) {
         console.log(`${evenNumber} is an Even Number`)
     }
 };
+
+// using while loop:
+let evenNum = 1;
+while (evenNum <= 20) {
+    if (evenNum % 2 == 0) {
+        console.log(`${evenNum} is an Even Number 😘`)
+    }
+    evenNum++;
+};
+
+
+// using the do - loop
+/*The do loop does the same as the while loop! but here the condition comes last and*/
+let evenN = 1;
+do {
+    if (evenN % 2 == 0) {
+        console.log(`${evenN} is an Even Number Using Do-Loop 😂`)
+    }
+    evenN++;
+} while (evenN <= 20);
