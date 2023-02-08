@@ -81,3 +81,12 @@ for (num of valueArray) {
         console.log(num ** 2);
     }
 };
+
+// Using the break;
+// This is were a loop i stoped when inserted into any loop
+for (var i = 0; i <= 10; i++) {
+    if (i == 5) {
+        break;
+    }
+    console.log(i);
+};
