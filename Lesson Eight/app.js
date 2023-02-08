@@ -22,3 +22,22 @@ console.log(slicedMonthsTWO); // Here we log out the printed copies.
 const slicedMonthsTHREE = months.slice(1, 3); // This will capture the elements in a string from March to May.
 
 console.log(slicedMonthsTHREE); // The output will have two months
+
+//2. The includes() method
+/*
+In this array method, we use it to check if an array has a certain element and we can use it to test weather it is true of false.
+*/
+
+let names = ['Moses', 'Mutumba', 'Tamale', 'Jordarn', 'Samuel', 'Kabojja', 'sekitoleko', 'James', 'Nakafero', 'Jireh'];
+
+// Now here we are going to test whether there is a an element named 'Mbekeka' in the array;
+
+if (names.includes('Mbekeka')) {
+    console.log('The name Jireh is Seen in the array');
+} else {
+    names.unshift('Mbekeka')
+    console.log(names);
+    console.log('The name has been added first to the array');
+};
+
+// The array didn't have a name called Mbekekaand we added it to the front of the array using the unsift method
