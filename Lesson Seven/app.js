@@ -14,4 +14,14 @@ for (initialization; condition; increment;){
 
 for (let plates = 1; plates <= 10; plates++) {
     console.log(`Plate Number ${plates}, You have recieved a 🎂 `)
-}
+};
+
+/* //Question From Prommise;
+Use a while loop to print out the even numbers from 1 to 20.
+*/
+// Using for loop:
+for (let evenNumber = 1; evenNumber <= 20; evenNumber++) {
+    if (evenNumber % 2 == 0) {
+        console.log(`${evenNumber} is an Even Number`)
+    }
+};
