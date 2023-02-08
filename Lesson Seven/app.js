@@ -45,3 +45,25 @@ do {
     }
     evenN++;
 } while (evenN <= 20);
+
+// using For In Loop
+/*It mostly uses the in key word
+It pull out the properties in a variable
+Example:
+*/
+
+const person = {
+    Name: 'Kisakye Moses',
+    Age: "22",
+    Job: 'Developer',
+}
+const personArray = [];
+for (var properties in person) {
+    console.log(properties);
+    personArray.push(person[properties]);
+}
+
+console.log(personArray);
+
+const personCopy = personArray.slice() //copy of the personArray
+console.log(personCopy);
