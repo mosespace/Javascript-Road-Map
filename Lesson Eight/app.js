@@ -64,3 +64,22 @@ console.log(languages); // Here as we can see the output in the console, the Jav
 const newSplicedTwo = languages.splice(8, 0, 'Vue', 'EsE');
 
 console.log(newSplicedTwo, languages);
+
+
+/*
+------------------ADVANCED ARRAYS----------------------
+The Map() method; This method runs with a callback function. and it does not change the original array
+*/
+// -----------------------Example One-------------------------
+const ages = [71, 42, 23, 14, 5, 6, 77, 38, 49, 50, 61, 72, 13, 14, 15, 16, 17, 18, 19, 20];
+
+const birthYear = ages.map(function(birthYear) { // Now in this map() method, we first have to pass a function then after return what should be returned.
+    return 2023 - birthYear;
+});
+
+console.log(ages); // this outputs the ages before being computed by the map method()
+
+
+console.log(birthYear); // This outputs the computed year using the map() method
+
+// -----------------------Example Two-------------------------
