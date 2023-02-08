@@ -102,3 +102,5 @@ while (q < 10) {
     }
     console.log(q); // Now here the continue method will ignore printing the even number and print the odd instead!!!
 };
+
+console.log('This  is the End');
