@@ -67,3 +67,17 @@ console.log(personArray);
 
 const personCopy = personArray.slice() //copy of the personArray
 console.log(personCopy);
+
+// using for of loop
+/*
+Thi is a modern way of iletrating over the values of an iterable object such as an array or a string.
+example:
+*/
+
+const valueArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+for (num of valueArray) {
+    if (num % 2 == 0) {
+        console.log(num ** 2);
+    }
+};
