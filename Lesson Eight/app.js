@@ -83,3 +83,10 @@ console.log(ages); // this outputs the ages before being computed by the map met
 console.log(birthYear); // This outputs the computed year using the map() method
 
 // -----------------------Example Two-------------------------
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+
+const numberSquared = numbers.map(num => num ** 2);
+
+console.log(numbers); // this outputs the numbers before being computed by the map method()
+
+console.log(numberSquared); // This outputs the computed sqaure number using the map() method
