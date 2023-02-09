@@ -90,3 +90,14 @@ const numberSquared = numbers.map(num => num ** 2);
 console.log(numbers); // this outputs the numbers before being computed by the map method()
 
 console.log(numberSquared); // This outputs the computed sqaure number using the map() method
+
+/*
+------------------ADVANCED ARRAYS----------------------
+The ForEach() method; This method runssimillary like the map() method and does the same thing
+*/
+// -----------------------Example One-------------------------
+const price = [10000, 200000, 26000, 287897, 20001];
+
+const priceDiscounts = price.forEach(function(price, index) {
+    console.log(price, index);
+});
