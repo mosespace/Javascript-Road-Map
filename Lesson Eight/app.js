@@ -229,3 +229,5 @@ console.log(maleCitizens); // This prints out a group of those people who are ma
 const femaleCitizens = citizens.filter(fcitizens => fcitizens.gender === 'Female');
 
 console.log(femaleCitizens); // This prints out a group of those people who are female.
+
+console.log('End');
