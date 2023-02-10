@@ -151,4 +151,14 @@ const citizens = [{
         village: 'Nakawa',
         likes: 'Football'
     },
+    {
+        fsName: 'Ssekitoleko james',
+        gender: 'Male',
+        age: 23,
+        employed: true,
+        married: true,
+        location: 'Wakiso',
+        village: 'kigoogwa',
+        likes: 'Engeneering'
+    },
 ]
