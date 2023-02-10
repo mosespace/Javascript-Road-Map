@@ -201,4 +201,6 @@ const citizens = [{
         village: 'Kyanja',
         likes: 'Bussiness'
     },
-]
+];
+
+// let's assume we wanto know the number of people who leave in kampala Central
