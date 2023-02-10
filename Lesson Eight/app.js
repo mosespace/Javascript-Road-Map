@@ -191,4 +191,14 @@ const citizens = [{
         village: 'Lugogo',
         likes: 'Cooking'
     },
+    {
+        fsName: 'Fenandoh Aruho',
+        gender: 'Male',
+        age: 28,
+        employed: true,
+        married: false,
+        location: 'Kampala Central',
+        village: 'Kyanja',
+        likes: 'Bussiness'
+    },
 ]
