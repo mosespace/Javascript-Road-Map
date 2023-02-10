@@ -209,3 +209,11 @@ const citizensInKampala = citizens.filter(citizen => citizen.location === 'Kampa
 
 
 console.log(citizensInKampala); // This prints out a group of those people who come from the kampala central region.
+
+// let's assume we want to know the number of people who are employed
+
+const citizensEmployed = citizens.filter(function(ceployed) {
+    return ceployed.employed === true
+});
+
+console.log(citizensEmployed);
