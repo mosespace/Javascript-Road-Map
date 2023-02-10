@@ -204,3 +204,8 @@ const citizens = [{
 ];
 
 // let's assume we wanto know the number of people who leave in kampala Central
+
+const citizensInKampala = citizens.filter(citizen => citizen.location === 'Kampala Central');
+
+
+console.log(citizensInKampala); // This prints out a group of those people who come from the kampala central region.
