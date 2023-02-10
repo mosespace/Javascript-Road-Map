@@ -97,11 +97,13 @@ The ForEach() method; This method runssimillary like the map() method and does t
 */
 // -----------------------Example One-------------------------
 const price = [10000, 200000, 26000, 287897, 20001];
+const newArray = [];
+const priceDiscounts = price.forEach(function(prices, index) {
+    const discounts = prices + 0.1 * prices;
+    newArray.push(discounts)
 
-const priceDiscounts = price.forEach(function(price, index) {
-    console.log(price, index);
 }); // This method returns undefined!
-
+console.log(newArray);
 /*
 ------------------ADVANCED ARRAYS----------------------
 The reduce() method; This method executes a reducer function on each element of the array and returns a single output;
