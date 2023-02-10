@@ -216,4 +216,10 @@ const citizensEmployed = citizens.filter(function(ceployed) {
     return ceployed.employed === true
 });
 
-console.log(citizensEmployed);
+console.log(citizensEmployed); // This prints out a group of those people who are employed.
+
+// let's assume we want to know the number of people who are male
+
+const maleCitizens = citizens.filter(maleC => maleC.gender === 'Male');
+
+console.log(maleCitizens); // This prints out a group of those people who are male.
