@@ -120,3 +120,24 @@ const totalNumber = num.reduce(function(acc, value) {
 });
 
 console.log(totalNumber);
+
+/*
+------------------ADVANCED ARRAYS----------------------
+The filter() method; This method returns a new array with all elemtes passed by a test defined by a given function.
+
+It takes in a callback function. but will only return numbers passed in by a test
+
+!
+*/
+// -----------------------Example One-------------------------
+
+const citizens = [{
+    fsName: 'Kisakye Moses',
+    gender: 'Male',
+    age: 22,
+    employed: true,
+    married: false,
+    location: 'Kampala Central',
+    village: 'kolo',
+    likes: 'Coding'
+}, ]
