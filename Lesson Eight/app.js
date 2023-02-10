@@ -181,4 +181,14 @@ const citizens = [{
         village: 'kololo',
         likes: 'Nothing'
     },
+    {
+        fsName: 'Nakito Maria',
+        gender: 'Female',
+        age: 29,
+        employed: true,
+        married: false,
+        location: 'Kampala Central',
+        village: 'Lugogo',
+        likes: 'Cooking'
+    },
 ]
