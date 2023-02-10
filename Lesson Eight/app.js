@@ -161,4 +161,14 @@ const citizens = [{
         village: 'kigoogwa',
         likes: 'Engeneering'
     },
+    {
+        fsName: 'nakafero Jaireh',
+        gender: 'Female',
+        age: 21,
+        employed: false,
+        married: true,
+        location: 'Wakiso',
+        village: 'kigoogwa',
+        likes: 'Salooning'
+    },
 ]
