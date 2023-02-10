@@ -162,7 +162,7 @@ const citizens = [{
         likes: 'Engeneering'
     },
     {
-        fsName: 'nakafero Jaireh',
+        fsName: 'Nakafero Jaireh',
         gender: 'Female',
         age: 21,
         employed: false,
@@ -170,5 +170,15 @@ const citizens = [{
         location: 'Wakiso',
         village: 'kigoogwa',
         likes: 'Salooning'
+    },
+    {
+        fsName: 'Naluwagga Tracy',
+        gender: 'Female',
+        age: 21,
+        employed: false,
+        married: false,
+        location: 'Kampala Central',
+        village: 'kololo',
+        likes: 'Nothing'
     },
 ]
