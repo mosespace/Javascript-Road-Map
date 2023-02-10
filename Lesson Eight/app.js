@@ -223,3 +223,9 @@ console.log(citizensEmployed); // This prints out a group of those people who ar
 const maleCitizens = citizens.filter(maleC => maleC.gender === 'Male');
 
 console.log(maleCitizens); // This prints out a group of those people who are male.
+
+// let's assume we want to know the number of people who are female
+
+const femaleCitizens = citizens.filter(fcitizens => fcitizens.gender === 'Female');
+
+console.log(femaleCitizens); // This prints out a group of those people who are female.
