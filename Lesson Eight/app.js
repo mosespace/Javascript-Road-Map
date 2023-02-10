@@ -100,4 +100,21 @@ const price = [10000, 200000, 26000, 287897, 20001];
 
 const priceDiscounts = price.forEach(function(price, index) {
     console.log(price, index);
+}); // This method returns undefined!
+
+/*
+------------------ADVANCED ARRAYS----------------------
+The reduce() method; This method executes a reducer function on each element of the array and returns a single output;
+It takes in a callback message which takes in two parameters.
+
+it returns a single value after reducig an array.
+Does not change the original array!
+*/
+// -----------------------Example One-------------------------
+
+const num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const totalNumber = num.reduce(function(acc, value) {
+    return acc + value;
 });
+
+console.log(totalNumber);
