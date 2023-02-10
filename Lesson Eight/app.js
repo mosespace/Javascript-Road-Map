@@ -132,12 +132,23 @@ It takes in a callback function. but will only return numbers passed in by a tes
 // -----------------------Example One-------------------------
 
 const citizens = [{
-    fsName: 'Kisakye Moses',
-    gender: 'Male',
-    age: 22,
-    employed: true,
-    married: false,
-    location: 'Kampala Central',
-    village: 'kolo',
-    likes: 'Coding'
-}, ]
+        fsName: 'Kisakye Moses',
+        gender: 'Male',
+        age: 22,
+        employed: true,
+        married: false,
+        location: 'Kampala Central',
+        village: 'kolo',
+        likes: 'Coding'
+    },
+    {
+        fsName: 'Muwanga Alex',
+        gender: 'Male',
+        age: 28,
+        employed: true,
+        married: true,
+        location: 'Kampala Central',
+        village: 'Nakawa',
+        likes: 'Football'
+    },
+]
