@@ -25,6 +25,10 @@ let divTwo = document.createElement('div');
 
 divTwo.innerHTML = 'This is div two';
 
-divTwo.className = 'all-divs';
+// Adding a className
+divTwo.className = 'my-div';
+
+// Adding an ID
+divTwo.id = 'my-id';
 
 document.body.appendChild(divTwo);
