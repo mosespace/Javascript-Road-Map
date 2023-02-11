@@ -15,3 +15,6 @@ newDiv.innerHTML = 'This is a new Div';
 
 // Append the div into the body section!
 document.body.appendChild(newDiv);
+
+// Let's console it in the console
+console.log(newDiv, 'It has been stated')
