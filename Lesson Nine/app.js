@@ -50,3 +50,17 @@ console.log(idElements); // This print's out the element in the element.
 // The querySelector; this makes the selection of the elements easier like the same way it would be done in css! eg const allBtn = querySelector(#id) // this prints out an Id.
 
 // The querySelectorAll; this method makes selection of all elements in the DOM and makes working in javascript easy!
+
+// Deleting an element.
+// Let's say we want to delete the section from the main html.
+
+/*----------Example Three---------
+Remove parent */
+const deleted_section = document.querySelector('section');
+
+const deleted_parent = deleted_section.parentNode;
+
+deleted_parent.removeChild(deleted_section);
+
+/*----------Example Three---------
+Remove it's self */
