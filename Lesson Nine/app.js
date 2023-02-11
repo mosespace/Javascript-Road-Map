@@ -32,3 +32,10 @@ divTwo.className = 'my-div';
 divTwo.id = 'my-id';
 
 document.body.appendChild(divTwo);
+
+// In this example two, we are going to get element by two! and the formular for doing this is called getElementById
+
+// We have to create a new variable and the get it's element by passing the id formular and the name.
+const idElements = document.getElementById('container');
+
+console.log(idElements); // This print's out the element in the element.
