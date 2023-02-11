@@ -3,3 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.my-div {
+    color: red;
+    font-size: 2rem;
+}
