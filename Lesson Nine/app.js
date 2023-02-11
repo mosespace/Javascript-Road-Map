@@ -18,3 +18,13 @@ document.body.appendChild(newDiv);
 
 // Let's console it in the console!
 console.log(newDiv, 'It has been stated');
+
+// Creating class or Id!
+
+let divTwo = document.createElement('div');
+
+divTwo.innerHTML = 'This is div two';
+
+divTwo.className = 'all-divs';
+
+document.body.appendChild(divTwo);
