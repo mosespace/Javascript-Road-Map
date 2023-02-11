@@ -6,3 +6,9 @@ It makes static websites to Dynamic Websites
 */
 
 // You can use the createElement method of an object to create an element withot html or css!!!
+
+// Creating elements in JAVASCRI*T!
+const newDiv = document.createElement('div');
+
+// Set the inner Html!
+newDiv.innerHTML = 'This is a new Div';
