@@ -5,6 +5,7 @@ DOM Document Object Module is a web API that allows developers to use programmin
 It makes static websites to Dynamic Websites
 */
 
+/*------------------------Example One----------------------*/
 // You can use the createElement method of an object to create an element withot html or css!!!
 
 // Creating elements in JAVASCRI*T!
@@ -33,6 +34,8 @@ divTwo.id = 'my-id';
 
 document.body.appendChild(divTwo);
 
+
+/*------------------------Example Two----------------------*/
 // In this example two, we are going to get element by two! and the formular for doing this is called getElementById
 
 // We have to create a new variable and the get it's element by passing the id formular and the name.
