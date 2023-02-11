@@ -64,3 +64,7 @@ deleted_parent.removeChild(deleted_section);
 
 /*----------Example Three---------
 Remove it's self */
+
+const div_delete = document.querySelector('#my-id'); // This get's the id
+
+div_delete.remove(); // This removes the ID
