@@ -12,3 +12,6 @@ const newDiv = document.createElement('div');
 
 // Set the inner Html!
 newDiv.innerHTML = 'This is a new Div';
+
+// Append the div into the body section!
+document.body.appendChild(newDiv);
