@@ -42,3 +42,5 @@ document.body.appendChild(divTwo);
 const idElements = document.getElementById('container');
 
 console.log(idElements); // This print's out the element in the element.
+
+// getElementsByIdTagName; This method gets all various ids by there tags. Evne if there more than one compared to the getElementById which get's only the first element
