@@ -47,4 +47,6 @@ console.log(idElements); // This print's out the element in the element.
 
 // getElemtsByClassName returns a collection of elements with the given specified class name.
 
-// The querySelector; this makes the selection of the elements easier like the same way it would be done in css! eg const allBtn = querySelector(#id) // this prints out an Id
+// The querySelector; this makes the selection of the elements easier like the same way it would be done in css! eg const allBtn = querySelector(#id) // this prints out an Id.
+
+// The querySelectorAll; this method makes selection of all elements in the DOM and makes working in javascript easy!
