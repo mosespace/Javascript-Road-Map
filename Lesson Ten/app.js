@@ -53,3 +53,5 @@ btnEl.classList.add('in-active');
 btnEl.classList.remove('in-active');
 
 btnEl.classList.remove('active');
+
+alert('To Be Continued!');
