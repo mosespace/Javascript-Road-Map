@@ -14,3 +14,11 @@ const headings = document.createElement('h1');
 headings.innerHTML = 'Advanced Dom';
 
 document.body.appendChild(headings);
+
+/* ------------------------Example Two---------------------*/
+
+const addingParagraph = document.createElement('p');
+
+addingParagraph.innerHTML = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius totam voluptatem, cumque esse exercitationem possimus! Aliquid veritatis temporibus fuga sed?';
+
+document.body.appendChild(addingParagraph);
