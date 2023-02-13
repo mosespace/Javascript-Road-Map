@@ -48,3 +48,8 @@ btnEl.classList.add('btn');
 btnEl.classList.add('active');
 
 btnEl.classList.add('in-active');
+
+/* Removing the classes*/
+btnEl.classList.remove('in-active');
+
+btnEl.classList.remove('active');
