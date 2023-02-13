@@ -30,3 +30,5 @@ addingParagraph.id = 'Heading';
 // Styling the kune like the way in css
 addingParagraph.style.fontSize = '40px'; // changing the font size
 addingParagraph.style.backgroundColor = '#ffa500'; // Changing the backround color
+
+addingParagraph.style.textTransform = 'uppercase'; // Changing the text case to upper case
