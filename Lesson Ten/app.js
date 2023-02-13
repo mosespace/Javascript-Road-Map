@@ -28,5 +28,5 @@ addingParagraph.id = 'Heading';
 
 
 // Styling the kune like the way in css
-addingParagraph.style.fontSize = '40px';
-addingParagraph.style.backgroundColor = '#ffa500';
+addingParagraph.style.fontSize = '40px'; // changing the font size
+addingParagraph.style.backgroundColor = '#ffa500'; // Changing the backround color
