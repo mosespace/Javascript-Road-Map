@@ -22,3 +22,11 @@ const addingParagraph = document.createElement('p');
 addingParagraph.innerHTML = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius totam voluptatem, cumque esse exercitationem possimus! Aliquid veritatis temporibus fuga sed?';
 
 document.body.appendChild(addingParagraph);
+
+addingParagraph.className = 'Heading';
+addingParagraph.id = 'Heading';
+
+
+// Styling the kune like the way in css
+addingParagraph.style.fontSize = '40px';
+addingParagraph.style.backgroundColor = '#ffa500';
