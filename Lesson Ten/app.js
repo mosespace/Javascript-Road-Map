@@ -34,3 +34,17 @@ addingParagraph.style.backgroundColor = '#ffa500'; // Changing the backround col
 addingParagraph.style.textTransform = 'uppercase'; // Changing the text case to upper case
 
 // MODIFYING THE CLASSES
+
+const btnEl = document.querySelector('button'); // Calling the button from the html
+console.log(btnEl); // printing out the button.
+
+// Adding classes to elements!
+// classList Allows us to add classes, link class and also to even toggle classes and that's what we are going to use all throught! this session of adding classes
+
+// Example:
+
+btnEl.classList.add('btn');
+
+btnEl.classList.add('active');
+
+btnEl.classList.add('in-active');
