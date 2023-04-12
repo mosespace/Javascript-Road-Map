@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    padding: 0.7rem 3rem;
+    margin: 1rem 0;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.active {
+    background-color: blue;
+    border: none;
+    color: white;
+}
+
+.in-active {
+    background-color: grey;
+    border: none;
+    color: white;
+}
