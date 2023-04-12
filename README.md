@@ -1,7 +1,7 @@
 # **Javascript Beginner Road Map**
 
 
-![Main Theme](/img/roadmap_logo_real.jpg)
+![Main Theme](/img/current.png)
 
 
 **Welcome** to the first episode of my JavaScript introduction series! In this journey / "Road Map", am going to cover the basics of the JavaScript programming language, including how to link JavaScript to an HTML file, how to declare variables and assign values to them, and an overview of the different data types in JavaScript.
